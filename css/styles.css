@@ -120,7 +120,7 @@ p {
 }
 
 .product-card {
-  box-shadow: 0 0 10px #00000063;  
+  box-shadow: 0 0 10px #00000063;
 }
 
 .request-button {
@@ -165,7 +165,7 @@ p {
   width: 100%;
 }
 .team-image-section {
-  background-color:#145da0;
+  background-color: #145da0;
   max-height: 630px;
   height: 100%;
   max-width: 1350px;
@@ -243,9 +243,11 @@ p {
     margin-left: 0.5rem;
     opacity: 0.75;
     /* color: rgb(244, 247, 250); */
-    color: red;
+    color: blue;
     position: absolute;
     top: 25%;
+  }
+}
 
 /* on screens within the specified max-width, only auto type text shows */
 /* auto type text appears when the navbar button is toggled down */
@@ -264,7 +266,7 @@ p {
     margin-top: 0.75rem;
     margin-left: 0.5rem;
     /* color: white; */
-    color: red;
+    color: blue;
     opacity: 0.75;
     position: absolute;
     top: 50%;
