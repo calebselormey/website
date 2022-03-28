@@ -225,12 +225,13 @@ p {
 
 /* on screens with px between the specified range, only auto type text shows */
 /* auto type text dis-appears when the navbar button is toggled down */
-@media (min-width: 401px) and (max-width: 770px) {
+@media (min-width: 450px) and (max-width: 800px) {
   .team-img-big-heading {
     display: none;
     font-size: 1.5rem;
     line-height: 0.5;
-    color: white;
+    /* color: white; */
+    color: red;
     margin-left: 0.5rem;
     opacity: 0.75;
     position: absolute;
@@ -243,7 +244,7 @@ p {
     margin-left: 0.5rem;
     opacity: 0.75;
     /* color: rgb(244, 247, 250); */
-    color: blue;
+    color: red;
     position: absolute;
     top: 25%;
   }
@@ -253,20 +254,22 @@ p {
 /* auto type text appears when the navbar button is toggled down */
 @media (max-width: 400px) {
   .team-img-big-heading {
-    display: none;
+    /* display: none; */
     font-size: 1.5rem;
     color: white;
     margin-left: 0.5rem;
+    opacity: 0.75;
     position: absolute;
-    top: 66%;
+    top: 47.5%;
   }
 
   .team-img-what-we-do-text {
     font-size: 0.2rem;
     margin-top: 0.75rem;
     margin-left: 0.5rem;
-    /* color: white; */
-    color: blue;
+    color: white;
+    /* for test */
+    /* color: blue; */
     opacity: 0.75;
     position: absolute;
     top: 50%;
