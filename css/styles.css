@@ -225,13 +225,12 @@ p {
 
 /* on screens with px between the specified range, only auto type text shows */
 /* auto type text dis-appears when the navbar button is toggled down */
-@media (min-width: 450px) and (max-width: 800px) {
+/* @media (min-width: 450px) and (max-width: 800px) {
   .team-img-big-heading {
     display: none;
     font-size: 1.5rem;
     line-height: 0.5;
-    /* color: white; */
-    color: red;
+    color: white;
     margin-left: 0.5rem;
     opacity: 0.75;
     position: absolute;
@@ -243,35 +242,36 @@ p {
     margin-top: 0.85rem;
     margin-left: 0.5rem;
     opacity: 0.75;
-    /* color: rgb(244, 247, 250); */
-    color: red;
+    color: rgb(244, 247, 250);
     position: absolute;
     top: 25%;
   }
-}
+} */
 
 /* on screens within the specified max-width, only auto type text shows */
 /* auto type text appears when the navbar button is toggled down */
-@media (max-width: 400px) {
+@media (max-width: 501px) {
   .team-img-big-heading {
-    /* display: none; */
-    font-size: 1.5rem;
+    display: none;
     color: white;
     margin-left: 0.5rem;
     opacity: 0.75;
     position: absolute;
-    top: 47.5%;
+    top: 25%;
   }
 
   .team-img-what-we-do-text {
-    font-size: 0.2rem;
-    margin-top: 0.75rem;
+    font-size: larger;
     margin-left: 0.5rem;
-    color: white;
-    /* for test */
-    /* color: blue; */
+    color: rgb(244, 247, 250);
     opacity: 0.75;
     position: absolute;
-    top: 50%;
+    top: 30%;
+  }
+
+  .team-image {
+    height: 350px;
+    max-width: 1350px;
+    width: 100%;
   }
 }
