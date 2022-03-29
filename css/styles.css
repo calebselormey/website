@@ -249,7 +249,7 @@ p {
 
 /* on screens within the specified max-width, only auto type text shows */
 /* auto type text appears when the navbar button is toggled down */
-@media (max-width: 770px) {
+@media (max-width: 800px) {
   .team-img-big-heading {
     display: none;
     color: rgb(244, 247, 250);
