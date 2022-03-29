@@ -59,6 +59,11 @@ h6 {
   color: white;
 }
 
+/* .my-nav {
+  position: sticky;
+  top: 0;
+} */
+
 /* .navbar-brand {
   background-color: #145da0;
   border-radius: 5px;
@@ -166,11 +171,9 @@ p {
 }
 .team-image-section {
   background-color: #145da0;
-  max-height: 630px;
   height: 100%;
   max-width: 1350px;
   width: 100%;
-  background-size: contain;
 }
 /* responsive team image section & team image codes ends */
 
@@ -188,13 +191,11 @@ p {
 
 /* Headings */
 .team-img-big-heading {
-  font-size: 3rem;
-  line-height: 1;
   color: white;
   margin-left: 1rem;
-  position: absolute;
-  top: 300px;
   opacity: 0.75;
+  position: absolute;
+  top: 45%;
 }
 /* Headings (for test) */
 /* .team-img-big-heading {
@@ -207,12 +208,11 @@ p {
 } */
 
 .team-img-what-we-do-text {
-  margin-top: 1rem;
   margin-left: 1rem;
   color: white;
-  position: absolute;
-  top: 350px;
   opacity: 0.75;
+  position: absolute;
+  top: 52.5%;
 }
 
 .tel-contact {
@@ -228,9 +228,8 @@ p {
 /* @media (min-width: 450px) and (max-width: 800px) {
   .team-img-big-heading {
     display: none;
-    font-size: 1.5rem;
-    line-height: 0.5;
     color: white;
+    color: red;
     margin-left: 0.5rem;
     opacity: 0.75;
     position: absolute;
@@ -238,11 +237,11 @@ p {
   }
 
   .team-img-what-we-do-text {
-    font-size: 0.3rem;
     margin-top: 0.85rem;
     margin-left: 0.5rem;
     opacity: 0.75;
     color: rgb(244, 247, 250);
+    color: red;
     position: absolute;
     top: 25%;
   }
@@ -253,6 +252,7 @@ p {
 @media (max-width: 501px) {
   .team-img-big-heading {
     display: none;
+    color: rgb(244, 247, 250);
     color: white;
     margin-left: 0.5rem;
     opacity: 0.75;
@@ -261,12 +261,12 @@ p {
   }
 
   .team-img-what-we-do-text {
-    font-size: larger;
     margin-left: 0.5rem;
-    color: rgb(244, 247, 250);
+    /* color: rgb(244, 247, 250); */
+    color: white;
     opacity: 0.75;
     position: absolute;
-    top: 30%;
+    top: 35%;
   }
 
   .team-image {
@@ -275,3 +275,7 @@ p {
     width: 100%;
   }
 }
+
+/* .remove-auto-type {
+  display: none;
+} */
