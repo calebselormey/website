@@ -6,6 +6,17 @@ var typed = new Typed(".auto-type", {
   loop: true,
 });
 
+var a;
+function show_hide() {
+  if (a == 1) {
+    document.getElementById("auto-type").style.display = "inline";
+    return (a = 0);
+  } else {
+    document.getElementById("auto-type").style.display = "none";
+    return (a = 1);
+  }
+}
+
 // Form processing control code
 // window.addEventListener("DOMContentLoaded", function () {
 //   // get the form elements defined in your form HTML above
@@ -121,14 +132,3 @@ function ajax(method, url, data, success, error) {
 
 // testing
 // var btn = document.getElementById("myBtn");
-
-var a;
-function show_hide() {
-  if (a == 1) {
-    document.getElementById("auto-type").style.display = "inline";
-    return (a = 0);
-  } else {
-    document.getElementById("auto-type").style.display = "none";
-    return (a = 1);
-  }
-}
