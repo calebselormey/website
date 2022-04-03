@@ -17,10 +17,6 @@ body {
   font-family: montserrat;
 }
 
-a {
-  color: white;
-}
-
 a:hover {
   color: rgb(206, 198, 198);
 }
@@ -31,6 +27,7 @@ a:hover {
 
 .call-us {
   text-decoration: none;
+  color: white;
 }
 
 .card-header {
@@ -54,6 +51,10 @@ a:hover {
   padding: 3% 15%;
   text-align: center;
   background-color: #145da0;
+}
+
+.go-back-to-home {
+  color: blue;
 }
 
 h1,
