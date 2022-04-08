@@ -123,6 +123,7 @@ p {
 
 .request-button {
   font-size: medium;
+  margin-bottom: 40px;
 }
 
 /* .social-media {
@@ -156,12 +157,12 @@ p {
   max-width: 1350px;
   width: 100%;
 }
-.team-image-section {
+/* .team-image-section {
   background-color: #145da0;
   height: 100%;
   max-width: 1350px;
   width: 100%;
-}
+} */
 /* responsive team image section & team image codes ends */
 
 /* un-responsive team image section & team image codes */
@@ -177,22 +178,22 @@ p {
 /* un-responsive team image section & team image codes ends*/
 
 /* Headings */
-.team-img-big-heading {
+.team-img-big-heading-original {
   color: white;
   margin-left: 1rem;
   opacity: 0.75;
   position: absolute;
   top: 45%;
 }
-/* Headings (for test) */
-/* .team-img-big-heading {
-  font-size: 100%;
-  line-height: 1.5;
+
+.team-img-big-heading-alt {
   color: white;
+  font-size: 200%;
   margin-left: 1rem;
+  opacity: 0.75;
   position: absolute;
-  top: 50%;
-} */
+  top: 45%;
+}
 
 .team-img-what-we-do-text {
   margin-left: 1rem;
@@ -246,9 +247,9 @@ p {
 /* on screens within the specified max-width, only auto type text shows */
 /* auto type text appears when the navbar button is toggled down */
 @media (max-width: 800px) {
-  .team-img-big-heading {
-    display: none;
-    color: rgb(244, 247, 250);
+  .team-img-big-heading-original {
+    /* display: none; */
+    /* color: rgb(244, 247, 250); */
     color: white;
     margin-left: 0.5rem;
     opacity: 0.75;
@@ -256,13 +257,24 @@ p {
     top: 25%;
   }
 
-  .team-img-what-we-do-text {
-    margin-left: 0.5rem;
+  .team-img-big-heading-alt {
+    /* display: none; */
     /* color: rgb(244, 247, 250); */
     color: white;
+    font-size: 150%;
+    margin-left: 0.5rem;
     opacity: 0.75;
     position: absolute;
     top: 40%;
+  }
+
+  .team-img-what-we-do-text {
+    /* color: rgb(244, 247, 250); */
+    color: white;
+    margin-left: 0.5rem;
+    opacity: 0.75;
+    position: absolute;
+    top: 46%;
   }
 
   .team-image {
@@ -325,12 +337,13 @@ p {
 }
 
 .p-and-s-big-heading-div-1 {
-  margin-top: 95px;
+  margin-top: 70px;
   line-height: 3;
 }
 
 .p-and-s-big-heading-div-2 {
   margin-top: 95px;
+  margin-bottom: 35px;
 }
 
 .pricing-plan {
