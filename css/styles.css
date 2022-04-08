@@ -178,13 +178,13 @@ p {
 /* un-responsive team image section & team image codes ends*/
 
 /* Headings */
-.team-img-big-heading-original {
+/* .team-img-big-heading-original {
   color: white;
   margin-left: 1rem;
   opacity: 0.75;
   position: absolute;
   top: 45%;
-}
+} */
 
 .team-img-big-heading-alt {
   color: white;
@@ -265,7 +265,7 @@ p {
     margin-left: 0.5rem;
     opacity: 0.75;
     position: absolute;
-    top: 40%;
+    top: 225px;
   }
 
   .team-img-what-we-do-text {
@@ -274,7 +274,7 @@ p {
     margin-left: 0.5rem;
     opacity: 0.75;
     position: absolute;
-    top: 46%;
+    top: 260px;
   }
 
   .team-image {
