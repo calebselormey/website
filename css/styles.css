@@ -179,7 +179,7 @@ p {
 
 /* Headings */
 /* .team-img-big-heading-original {
-  color: white;
+  color: rgb(244, 247, 250);
   margin-left: 1rem;
   opacity: 0.75;
   position: absolute;
@@ -187,7 +187,8 @@ p {
 } */
 
 .team-img-big-heading-alt {
-  color: white;
+  color: rgb(244, 247, 250);
+  /* color: white; */
   font-size: 200%;
   margin-left: 1rem;
   opacity: 0.75;
@@ -197,7 +198,8 @@ p {
 
 .team-img-what-we-do-text {
   margin-left: 1rem;
-  color: white;
+  color: rgb(244, 247, 250);
+  /* color: white; */
   opacity: 0.75;
   position: absolute;
   top: 52.5%;
@@ -249,8 +251,8 @@ p {
 @media (max-width: 800px) {
   .team-img-big-heading-original {
     /* display: none; */
-    /* color: rgb(244, 247, 250); */
-    color: white;
+    color: rgb(244, 247, 250);
+    /* color: white; */
     margin-left: 0.5rem;
     opacity: 0.75;
     position: absolute;
@@ -259,8 +261,8 @@ p {
 
   .team-img-big-heading-alt {
     /* display: none; */
-    /* color: rgb(244, 247, 250); */
-    color: white;
+    color: rgb(244, 247, 250);
+    /* color: white; */
     font-size: 150%;
     margin-left: 0.5rem;
     opacity: 0.75;
@@ -269,8 +271,8 @@ p {
   }
 
   .team-img-what-we-do-text {
-    /* color: rgb(244, 247, 250); */
-    color: white;
+    color: rgb(244, 247, 250);
+    /* color: white; */
     margin-left: 0.5rem;
     opacity: 0.75;
     position: absolute;
