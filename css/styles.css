@@ -30,6 +30,12 @@ a:hover {
   color: white;
 }
 
+.digi-ad-header {
+  background-color: #145da0;
+  height: 60px;
+  padding-top: 10px;
+}
+
 .card-header {
   background-color: green;
 }
@@ -41,10 +47,6 @@ a:hover {
 .digi-ad-prices {
   margin-top: 10px;
   margin-bottom: 75px;
-}
-
-.digi-ad-card-header {
-  background-color: #145da0;
 }
 
 #footer {
