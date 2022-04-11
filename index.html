@@ -49,14 +49,20 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#what-we-do">WHAT WE DO</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#products-and-services">PRODUCTS & SERVICES</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="p-and-s-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              PRODUCTS & SERVICES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="p-and-s-dropdown">
+              <li><a class="dropdown-item" href="#softwares">SOFTWARE PRODUCTS</a></li>
+              <li><a class="dropdown-item" href="#our-services">OUR SERVICES</a></li>
+            </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="pricesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               PRICES
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <ul class="dropdown-menu" aria-labelledby="pricesDropdown">
               <li><a class="dropdown-item disabled" href="#">Software Products</a></li>
               <li><a class="dropdown-item" href="pricing.html">Digital Ad & Website</a></li>
             </ul>
@@ -137,7 +143,7 @@
 
   <!-- PRODUCTS AND SERVICE SECTION -->
   <!-- new section starts -->
-  <section class="p-and-s-section" id="products-and-services">
+  <section class="p-and-s-section" id="softwares">
     <div class="p-and-s-big-heading-div-1">
       <h2 class="p-and-s-big-heading"><strong>SOFTWARES</strong></h2>
       <p>Customizable to your needs</p>
@@ -267,7 +273,10 @@
       <!-- <div id="status"></div> -->
     </div>
     <!-- Request button and form ends -->
+  </section>
+  <!-- new section ends -->
 
+  <section class="p-and-s-section" id="our-services">
     <div class="p-and-s-big-heading-div-2">
       <h2 class="p-and-s-big-heading"><strong>OUR SERVICES</strong></h2>
     </div>
@@ -333,7 +342,6 @@
     data-bs-toggle="modal" data-bs-target="#myModal">Request to see some of our works or quote
   </button>
   </section>
-  <!-- new section ends --> 
 
   <!-- PRODUCT SLIDES -->
   <!-- <section class="" id="products-slides-section">
