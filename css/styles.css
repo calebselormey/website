@@ -31,8 +31,8 @@ a:hover {
 }
 
 .digi-ad-header {
-  /* background-color: #145da0; */
-  background-color: rgb(221, 191, 21);
+  background-color: #145da0;
+  /* background-color: rgb(221, 191, 21); */
   height: 55px;
   padding-top: 8px;
 }
