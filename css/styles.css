@@ -32,8 +32,7 @@ a:hover {
 
 .digi-ad-header {
   background-color: #145da0;
-  /* background-color: rgb(221, 191, 21); */
-  height: 55px;
+  height: 52.5px;
   padding-top: 8px;
 }
 
@@ -160,25 +159,6 @@ p {
   max-width: 1350px;
   width: 100%;
 }
-/* .team-image-section {
-  background-color: #145da0;
-  height: 100%;
-  max-width: 1350px;
-  width: 100%;
-} */
-/* responsive team image section & team image codes ends */
-
-/* un-responsive team image section & team image codes */
-/* .team-image {
-  height: 630px;
-  width: 1350px;
-}
-.team-image-section {
-  background-color:#145da0;
-  height: 630px;
-  background-size: contain;
-} */
-/* un-responsive team image section & team image codes ends*/
 
 /* Headings */
 /* .team-img-big-heading-original {
@@ -189,7 +169,7 @@ p {
   top: 45%;
 } */
 
-.team-img-big-heading-alt {
+.team-img-big-heading {
   color: rgb(244, 247, 250);
   /* color: white; */
   font-size: 200%;
@@ -225,69 +205,6 @@ p {
   margin-bottom: 50px;
 }
 
-/* on screens with px between the specified range, only auto type text shows */
-/* auto type text dis-appears when the navbar button is toggled down */
-/* @media (min-width: 450px) and (max-width: 800px) {
-  .team-img-big-heading {
-    display: none;
-    color: white;
-    color: red;
-    margin-left: 0.5rem;
-    opacity: 0.75;
-    position: absolute;
-    top: 25%;
-  }
-
-  .team-img-what-we-do-text {
-    margin-top: 0.85rem;
-    margin-left: 0.5rem;
-    opacity: 0.75;
-    color: rgb(244, 247, 250);
-    color: red;
-    position: absolute;
-    top: 25%;
-  }
-} */
-
-/* on screens within the specified max-width, only auto type text shows */
-/* auto type text appears when the navbar button is toggled down */
-@media (max-width: 800px) {
-  .team-img-big-heading-original {
-    /* display: none; */
-    color: rgb(244, 247, 250);
-    /* color: white; */
-    margin-left: 0.5rem;
-    opacity: 0.75;
-    position: absolute;
-    top: 25%;
-  }
-
-  .team-img-big-heading-alt {
-    /* display: none; */
-    color: rgb(244, 247, 250);
-    /* color: white; */
-    font-size: 150%;
-    margin-left: 0.5rem;
-    opacity: 0.75;
-    position: absolute;
-    top: 225px;
-  }
-
-  .team-img-what-we-do-text {
-    color: rgb(244, 247, 250);
-    /* color: white; */
-    margin-left: 0.5rem;
-    opacity: 0.75;
-    position: absolute;
-    top: 260px;
-  }
-
-  .team-image {
-    height: 350px;
-    max-width: 1350px;
-    width: 100%;
-  }
-}
 
 /* .remove-auto-type {
   display: none;
@@ -387,3 +304,49 @@ body.pricing {
 }
 
 /* new section ends */
+
+/* on screens within the specified max-width, only auto type text shows */
+/* auto type text appears when the navbar button is toggled down */
+@media (max-width: 800px) {
+
+  .p-and-s-section {
+    margin: 5% 2.5%;
+    /* text-align: center; */
+  }
+
+  .team-img-big-heading-original {
+    /* display: none; */
+    color: rgb(244, 247, 250);
+    /* color: white; */
+    margin-left: 0.5rem;
+    opacity: 0.75;
+    position: absolute;
+    top: 25%;
+  }
+
+  .team-img-big-heading {
+    /* display: none; */
+    color: rgb(244, 247, 250);
+    /* color: white; */
+    font-size: 150%;
+    margin-left: 0.5rem;
+    opacity: 0.75;
+    position: absolute;
+    top: 225px;
+  }
+
+  .team-img-what-we-do-text {
+    color: rgb(244, 247, 250);
+    /* color: white; */
+    margin-left: 0.5rem;
+    opacity: 0.75;
+    position: absolute;
+    top: 260px;
+  }
+
+  .team-image {
+    height: 350px;
+    max-width: 1350px;
+    width: 100%;
+  }
+}
