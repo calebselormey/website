@@ -31,7 +31,7 @@ a:hover {
 }
 
 .digi-ad-header {
-  background-color: #145da0;
+  background-color: #4883ff;
   height: 52.5px;
   padding-top: 8px;
 }
@@ -73,11 +73,6 @@ h6 {
   color: #ef8172;
   padding-bottom: 1rem;
 }
-
-/* .logo{
-  height: 50px;
-  
-} */
 
 .modal-header {
   background-color: orange;
