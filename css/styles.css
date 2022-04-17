@@ -29,6 +29,7 @@ a:hover {
 .call-us {
   text-decoration: none;
   color: white;
+  font-size: medium;
 }
 
 .digi-ad-header {
@@ -131,18 +132,32 @@ p {
   box-shadow: 0 0 5px #35353563;
   margin-top: 15px;
   margin-bottom: 15px;
-  border-bottom-right-radius: 35px;
-  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
-.request-button {
+.ask-for-price-button {
   font-size: medium;
-  margin-bottom: 40px;
+  border: rgb(98, 184, 98) 3.75px solid;
 }
 
-/* .social-media {
-  margin: 20px 10px;
-} */
+.see-videos {
+  color: #145da0;
+ 
+}
+
+.see-videos:hover {
+  color: gray;
+}
+
+.social-media {
+  margin: 10px;
+  color: white;
+}
+
+.social-media:hover {
+  color: gray;
+}
 
 #status {
   width: 90%;
@@ -258,10 +273,10 @@ p {
 
 .p-and-s-des-container {
   padding: 10px;
-  border: 1px solid #73ade2;
+  border: 1px solid #c8d9fd;
   width: 90%;
   margin-left: 5%;
-  background-color: #73a6d6;
+  background-color: #c8d9fd;
 }
 
 .p-and-s-big-heading {
@@ -272,12 +287,13 @@ p {
 
 .p-and-s-big-heading-div-1 {
   margin-top: 70px;
-  line-height: 3;
+  line-height: 2;
+  height: 2rem;
 }
 
 .p-and-s-big-heading-div-2 {
   margin-top: 95px;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .pricing-plan {
