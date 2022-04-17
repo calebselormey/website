@@ -34,6 +34,7 @@ a:hover {
   background-color: #4883ff;
   height: 52.5px;
   padding-top: 8px;
+  
 }
 
 .card-header {
@@ -121,6 +122,8 @@ p {
   box-shadow: 0 0 5px #35353563;
   margin-top: 15px;
   margin-bottom: 15px;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
 }
 
 .request-button {
@@ -279,6 +282,7 @@ p {
 body.pricing {
   text-align: center;
   padding: 50px;
+  background-color: #c8d9fd;
   /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
 }
