@@ -78,6 +78,11 @@ h6 {
   padding-bottom: 1rem;
 }
 
+.logo {
+  border-radius: 15px;
+  width: 200px;
+}
+
 .modal-header {
   background-color: orange;
   color: white;
