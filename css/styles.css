@@ -15,7 +15,8 @@
 
 body {
   font-family: montserrat;
-  background-color: #c8d9fd;
+  background: url(https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&w=1000&q=80) #c8d9fd;
+  background-size: cover;
 }
 
 a:hover {
@@ -97,10 +98,12 @@ h6 {
 
 #our-services {
   background-color: aliceblue;
+  box-shadow: 0 0 5px #35353563;
 }
 
 #softwares {
   background-color: aliceblue;
+  box-shadow: 0 0 5px #35353563;
 }
 
 /* .p-and-s-big-heading-container {
