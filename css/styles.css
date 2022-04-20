@@ -19,6 +19,14 @@ body.main-page {
   background-size: cover;
 }
 
+body.pricing {
+  text-align: center;
+  padding: 50px;
+  background-color: #c8d9fd;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+}
+
 a:hover {
   color: rgb(206, 198, 198);
 }
@@ -33,10 +41,16 @@ a:hover {
   font-size: medium;
 }
 
+.check-mark {
+  color: green;
+}
+
 .digi-ad-header {
   background-color: #4883ff;
   height: 52.5px;
   padding-top: 8px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   
 }
 
@@ -79,8 +93,8 @@ h6 {
 }
 
 .logo {
-  border-radius: 15px;
   width: 200px;
+  border-radius: 8px;
 }
 
 .modal-header {
@@ -240,6 +254,11 @@ p {
   margin-bottom: 50px;
 }
 
+.wrong-mark {
+  color: red;
+  font-size: 1.25rem;
+}
+
 
 /* .remove-auto-type {
   display: none;
@@ -310,14 +329,6 @@ p {
 
 .price-text {
   color: red;
-}
-
-body.pricing {
-  text-align: center;
-  padding: 50px;
-  background-color: #c8d9fd;
-  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
 }
 
 .more-softwares {
