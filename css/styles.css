@@ -163,12 +163,12 @@ p {
   border: rgb(98, 184, 98) 3.75px solid;
 }
 
-.see-videos {
+.tap-or-click-here {
   color: #145da0;
  
 }
 
-.see-videos:hover {
+.tap-or-click-here:hover {
   color: gray;
 }
 
