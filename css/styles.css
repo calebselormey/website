@@ -40,25 +40,29 @@ a:hover {
   font-size: medium;
 }
 
+.card-body {
+font-size: small;
+line-height: 1;
+}
+
+.card-header {
+  background-color: green;
+  height: 3rem;
+}
+
+.copy-right {
+  margin: 25px 0 0;
+}
+
 .check-mark {
   color: green;
 }
 
 .digi-ad-header {
   background-color: #4883ff;
-  height: 52.5px;
   padding-top: 8px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  
-}
-
-.card-header {
-  background-color: green;
-}
-
-.copy-right {
-  margin: 25px 0 0;
 }
 
 .digi-ad-prices {
@@ -363,14 +367,15 @@ p {
   font-size: small;
 }
 
-.first-yr-rate {
+.After-1st-year {
   color: green;
+  font-size: small;
 }
 
 .package-plan-container {
   margin-bottom: 25px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-right: 0;
 }
 
